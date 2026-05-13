@@ -1,0 +1,13 @@
+README
+======
+
+Ich arbeite seit 1,5 Jahren bei MKL und habe in dieser Zeit mehrere Workflows automatisiert sowie Programme nach Bedarf erstellt.
+
+Die Dateien in diesem Verzeichnis enthalten diese Automatisierungen und stehen als praktische Hilfsmittel für meine Nachfolger zur Verfügung.
+
+Enthaltene Projekte:
+- `CreateFoldersFromMail_TG/`: Automatische Ordnererstellung aus E-Mail-Inhalten.
+- `ShellSendTo_Loewen/`: Shell- und Scripting-Tools für den schnellen Zugriff und Datei-Workflow.
+
+Hinweis:
+Die Programme wurden gezielt für wiederkehrende Aufgaben bei MKL entwickelt und sollen den Einstieg für andere Teammitglieder erleichtern. Bitte prüfe vor Nutzung die aktuelle Infrastruktur und die Pfadeinstellungen in den Skripten.
