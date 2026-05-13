@@ -1,4 +1,4 @@
 requirements:
-pip install tkinter
+pip install tkinter nuitka
 
 py -3.12 -m nuitka --standalone --windows-disable-console --python-flag=no_site --lto=yes create.py

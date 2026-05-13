@@ -1,1 +1,4 @@
+resources:
+pip install pytesseract tkinter nuitka
+
 py -3.12 -m nuitka --standalone --windows-disable-console --python-flag=no_site --lto=yes --include-data-dir=resources=resources gui.py
