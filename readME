@@ -8,6 +8,7 @@ Die Dateien in diesem Verzeichnis enthalten diese Automatisierungen und stehen a
 Enthaltene Projekte:
 - `CreateFoldersFromMail_TG/`: Automatische Ordnererstellung aus E-Mail-Inhalten (Mails mit TG-Aufträgen aus Essen).
 - `ShellSendTo_Loewen/`: Shell- und Scripting-Tools für den schnellen Zugriff und Datei-Workflow (Erstellt für M.MIK).
+- `Sort_ABL/` : Automatische Sortierung, Ordnererstellung und Speicherung der Ablieferbelege.
 
 Hinweis:
 Die Programme wurden gezielt für wiederkehrende Aufgaben bei MKL entwickelt und sollen den Einstieg für andere Teammitglieder erleichtern. Bitte prüfe vor Nutzung die aktuelle Infrastruktur und die Pfadeinstellungen in den Skripten.

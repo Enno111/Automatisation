@@ -1,0 +1,1 @@
+py -3.12 -m nuitka --standalone --windows-disable-console --python-flag=no_site --lto=yes Sort_ABL.py
