@@ -138,7 +138,8 @@ def sort_and_move_pdfs(pdf_objs):
                     pdf_obj.pdf_path = dst  # Aktualisiere den Pfad im Objekt
                     print(f"Verschoben: {src} -> {dst}")
                     moved = True
-                except Exception:
+                except Exception as e:
+                    print(e)
                     pass
                 break
         if not moved:
@@ -156,7 +157,7 @@ def sort_and_move_pdfs(pdf_objs):
         try:
             shutil.copy2(dst, os.path.join(archiv_folder, os.path.basename(dst)))
             print(f"Archiviert: {dst} -> {os.path.join(archiv_folder, os.path.basename(dst))}")
-        except Exception:
+        except Exception as e:
             print(e)
             pass
         # Lösche die Datei im ursprünglichen Ordner
@@ -164,7 +165,7 @@ def sort_and_move_pdfs(pdf_objs):
             if os.path.exists(src):
                 os.remove(src)
                 print(f"Gelöscht: {src}")
-        except Exception:
+        except Exception as e:
             print(e)
             pass
 
@@ -209,5 +210,6 @@ def handle_henry(path_dict):
                     try:
                         shutil.move(entry_path, ziel_ordner)
                         print(f"Henry-Ordner verschoben: {entry_path} -> {ziel_ordner}")
-                    except Exception:
+                    except Exception as e:
+                        print(e)
                         pass
