@@ -110,7 +110,7 @@ class PDF:
 
 if __name__ == "__main__":
     # Pfad zur Test-PDF anpassen
-    TEST_PDF_PATH = r"X:\Scan aus MAN\Mannheim\45018585 Neu-Isenburg Ortsbesichtigung.pdf"
+    TEST_PDF_PATH = r"X:\Scan aus MAN\Essen\45021720_20260624.pdf"
 
     try:
         pdf = PDF(TEST_PDF_PATH)

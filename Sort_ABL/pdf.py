@@ -178,7 +178,7 @@ class ScannedPDF:
         
 
 # Beispiel für die Nutzung:
-#pdf_path = r"X:\Scan aus MAN\Mannheim\45017845_20250918_TestNihctverschiben.pdf"
+#pdf_path = r"X:\Scan aus MAN\Essen\45021732_20260624.pdf"
 #scanned_pdf = ScannedPDF(pdf_path)
 #text = ScannedPDF.extract_pdf_text(scanned_pdf, pdf_path)
 #print(text)
